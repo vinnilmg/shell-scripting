@@ -7,7 +7,7 @@ cd $CAMINHO_IMAGENS
 
 cria_diretorio() {
 	echo "Executando função cria_diretorio()"
-	
+		
 	local dir_name="png"
 	
 	if [ ! -d $dir_name ] 
